@@ -10,6 +10,7 @@
  * Output: [5, 4, 3, 2, 1]
  */
 function sortArrayDescending(array) {
+    return array.sort((a, b) => b - a);
 }
 
 module.exports = sortArrayDescending;

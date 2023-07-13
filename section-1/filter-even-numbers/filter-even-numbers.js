@@ -10,6 +10,7 @@
  * Output: [2, 4]
  */
 function filterEvenNumbers(numArray) {
+    return numArray.filter(num => num % 2 === 0);
 }
 
 module.exports = filterEvenNumbers;

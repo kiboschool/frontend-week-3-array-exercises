@@ -10,6 +10,7 @@
  * Output: 15
  */
 function accumulateArray(numArray) {
+    return numArray.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 }
 
 module.exports = accumulateArray;

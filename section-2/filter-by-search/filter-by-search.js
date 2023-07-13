@@ -11,6 +11,7 @@
  * Output: ["banana"]
  */
 function filterBySearch(array, searchTerm) {
+    return array.filter(item => item.includes(searchTerm));
 }
 
 module.exports = filterBySearch;

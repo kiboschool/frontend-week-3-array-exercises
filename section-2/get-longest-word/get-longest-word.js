@@ -10,6 +10,7 @@
  * Output: "jumps"
  */
 function getLongestWord(sentence) {
+    return sentence.split(' ').reduce((longestWord, currentWord) => currentWord.length > longestWord.length ? currentWord : longestWord, '');
 }
 
 module.exports = getLongestWord;

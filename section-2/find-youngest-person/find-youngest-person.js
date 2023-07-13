@@ -10,6 +10,7 @@
  * Output: "Jane"
  */
 function findYoungestPerson(array) {
+    return array.reduce((youngest, person) => person.age < youngest.age ? person : youngest).name;
 }
 
 module.exports = findYoungestPerson;

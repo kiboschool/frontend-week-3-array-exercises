@@ -11,6 +11,14 @@
  * Output: { "red": 2, "blue": 1 }
  */
 function countByProperty(array, property) {
+    return array.reduce((count, obj) => {
+        let key = obj[property];
+        if (!count[key]) {
+            count[key] = 0;
+        }
+        count[key]++;
+        return count;
+    }, {});
 }
 
 module.exports = countByProperty;

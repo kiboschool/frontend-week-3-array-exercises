@@ -10,6 +10,7 @@
  * Output: [2, 4, 6, 8, 10]
  */
 function multiplyByTwo(numArray) {
+    return numArray.map(num => num * 2);
 }
 
 module.exports = multiplyByTwo;

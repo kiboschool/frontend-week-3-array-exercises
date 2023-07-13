@@ -10,6 +10,7 @@
  * Output: [1, 4, 9, 16, 25]
  */
 function getSquaredArray(numArray) {
+    return numArray.map(num => num * num);
 }
 
 module.exports = getSquaredArray;

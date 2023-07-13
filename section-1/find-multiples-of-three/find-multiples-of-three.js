@@ -10,6 +10,8 @@
  * Output: 3
  */
 function findMultiplesOfThree(numArray) {
+    return numArray.find(num => num % 3 === 0);
 }
 
 module.exports = findMultiplesOfThree;
+

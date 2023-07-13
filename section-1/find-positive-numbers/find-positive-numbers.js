@@ -10,6 +10,8 @@
  * Output: [2, 4]
  */
 function findPositiveNumbers(numArray) {
+    return numArray.filter(num => num > 0);
 }
 
 module.exports = findPositiveNumbers;
+

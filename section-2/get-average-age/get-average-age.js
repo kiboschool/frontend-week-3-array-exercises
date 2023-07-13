@@ -10,6 +10,7 @@
  * Output: 21
  */
 function getAverageAge(array) {
+    return array.reduce((sum, person) => sum + person.age, 0) / array.length;
 }
 
 module.exports = getAverageAge;

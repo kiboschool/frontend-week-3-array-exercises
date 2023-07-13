@@ -10,6 +10,7 @@
  * Output: ["John Doe", "Jane Doe"]
  */
 function getFullNameList(array) {
+    return array.map(person => `${person.firstName} ${person.lastName}`);
 }
 
 module.exports = getFullNameList;

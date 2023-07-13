@@ -10,6 +10,7 @@
  * Output: [1, 2, 3]
  */
 function getUniqueElements(array) {
+    return [...new Set(array)];
 }
 
 module.exports = getUniqueElements;
